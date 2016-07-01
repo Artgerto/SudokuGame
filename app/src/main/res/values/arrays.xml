@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="difficulty">
+        <item>@string/lv_1</item>
+        <item>@string/lv_2</item>
+        <item>@string/lv_3</item>
+        <item>@string/lv_4</item>
+        <item>@string/lv_5</item>
+        <item>@string/lv_6</item>
+        <item>@string/lv_7</item>
+        <item>@string/lv_8</item>
+        <item>@string/lv_9</item>
+    </array>
+</resources>

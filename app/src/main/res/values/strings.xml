@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SudokuGame</string>
+    <string name="hello">Hello World, Sudoku!</string>
+    <string name="main_title">Android Sudoku</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+
+    <!-- About Screen -->
+    <string name="about_title">About Sudoku</string>
+	<string name="about_text">\
+Sudoku is a logic-based number placement puzzle.
+Starting with a partially completed 9x9 grid, the
+objective is to fill the grid so that each
+row, each column, and each of the 3x3 boxes
+(also called <i>blocks</i>) contains the digits
+1 to 9 exactly once.
+	</string>
+
+    <!-- Настройки -->
+    <string name="settings_label">Settings...</string>
+    <string name="settings_title">Sudoku settings</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Play/Shut off background music</string>
+    <string name="music_done">Music is played/shuted off background </string>
+    <string name="settings_shortcut">s</string>
+    <string name="hints_title">Hints</string>
+
+
+    <!-- Новая игра -->
+    <string name='new_game_title'>Difficulty</string>
+    <string name='lv_1'>Level 1</string>
+    <string name='lv_2'>Level 2</string>
+    <string name='lv_3'>Level 3</string>
+    <string name='lv_4'>Level 4</string>
+    <string name='lv_5'>Level 5</string>
+    <string name='lv_6'>Level 6</string>
+    <string name='lv_7'>Level 7</string>
+    <string name='lv_8'>Level 8</string>
+    <string name='lv_9'>Level 9</string>
+
+    <!-- Игра -->
+    <string name='game_title'>Game</string>
+    <string name='no_moves_label'>No moves</string>
+    <string name='keypad_title'>Keypad</string>
+    <string name='game_over'>Game Over</string>
+
+    <!-- Конец игры -->
+    <string name="replay_label">Replay</string>
+    <string name="menu_label">Main menu</string>
+    <string name="hints_summary">Show hints during play</string>
+    <string name="chooselevel">Choose level</string>
+    <string name="level">Level</string>
+    <string name="win">You win!</string>
+</resources>

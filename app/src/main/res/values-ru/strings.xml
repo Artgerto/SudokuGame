@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Судоку</string>
+    <string name="about_label">Об игре</string>
+    <string name="about_text">Судоку - логическая игра с цифрами. Заполните пустые клетки цифрами от 1 до 9 так, чтобы в любой строке, в любом столбце и в любом блоке 3х3 не было одинаковых цифр.</string>
+    <string name="about_title">О судоку</string>
+    <string name="continue_label">Продолжить</string>
+    <string name="exit_label">Выход</string>
+    <string name="game_over">Игра закончена</string>
+    <string name="game_title">Игра</string>
+    <string name="hello">Привет, мир Судоку!</string>
+    <string name="hints_title">Подсказки</string>
+    <string name="hints_summary">Показывать подсказки во время игры</string>
+    <string name="keypad_title">Клавиатура</string>
+    <string name="main_title">Судоку</string>
+    <string name="menu_label">Главное меню</string>
+    <string name="music_summary">Воспроизводить/отключить музыку</string>
+    <string name="music_done">Музыка включена/отключена</string>
+    <string name="music_title">Музыка</string>
+    <string name="new_game_label">Новая игра</string>
+    <string name="new_game_title">Сложность</string>
+    <string name="no_moves_label">Не осталось ходов</string>
+    <string name="replay_label">Переиграть</string>
+    <string name="settings_label">Настройки...</string>
+    <string name="settings_shortcut">С</string>
+    <string name="settings_title">Настройки</string>
+    <string name="level">Уровень</string>
+    <string name="lv_1">Уровень 1</string>
+    <string name="lv_2">Уровень 2</string>
+    <string name="lv_3">Уровень 3</string>
+    <string name="lv_4">Уровень 4</string>
+    <string name="lv_5">Уровень 5</string>
+    <string name="lv_6">Уровень 6</string>
+    <string name="lv_7">Уровень 7</string>
+    <string name="lv_8">Уровень 8</string>
+    <string name="lv_9">Уровень 9</string>
+    <string name="chooselevel">Выберите уровень</string>
+    <string name="win">Вы выиграли!</string>
+</resources>
