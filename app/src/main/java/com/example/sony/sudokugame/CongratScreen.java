@@ -26,13 +26,13 @@ public class CongratScreen extends Activity implements OnClickListener
     }
 
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.menu_button:
-                finish();
-                break;
-            case R.id.replay_button:
-                openNewGameDialog();
-                break;
+        if (v.getId() == R.id.menu_button) {
+            finish();
+            return;
+        }
+
+        if (v.getId() == R.id.replay_button) {
+            openNewGameDialog();
         }
     }
 

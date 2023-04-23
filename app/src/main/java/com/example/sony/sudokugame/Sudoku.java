@@ -4,13 +4,12 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-
 
 public class Sudoku extends AppCompatActivity implements OnClickListener {
 
@@ -39,29 +38,33 @@ public class Sudoku extends AppCompatActivity implements OnClickListener {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch(item.getItemId()) {
-            case R.id.settings:
-                startActivity(new Intent(this, Prefs.class));
-                return true;
+        if (item.getItemId() == R.id.settings) {
+            startActivity(new Intent(this, Prefs.class));
+            return true;
         }
+
         return false;
     }
 
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.about_button:
-                Intent i = new Intent(this, About.class);
-                startActivity(i);
-                break;
-            case R.id.new_button:
-                openNewGameDialog();
-                break;
-            case R.id.exit_button:
-                finish();
-                break;
-            case R.id.continue_button:
-                startGame(Game.DIFFICULTY_CONTINUE);
-                break;
+        if (v.getId() == R.id.about_button) {
+            Intent i = new Intent(this, About.class);
+            startActivity(i);
+            return;
+        }
+
+        if (v.getId() == R.id.new_button) {
+            openNewGameDialog();
+            return;
+        }
+
+        if (v.getId() == R.id.exit_button) {
+            finish();
+            return;
+        }
+
+        if (v.getId() == R.id.continue_button) {
+            startGame(Game.DIFFICULTY_CONTINUE);
         }
     }
 
